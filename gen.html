@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #121f3a;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link rel="stylesheet" href="./styles.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Lexend&display=swap" rel="stylesheet"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Generator</title>
+  </head>
+  <body>
+    <div class="transition"></div>
+    <div class="hover_bkgr_fricc">
+      <span class="helper"></span>
+      <div>
+          <!-- <div class="popupCloseButton">&times;</div> -->
+          <div class="activateCountryTable">
+            <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=553> <tr><td width=110 valign=top><p>Country Number</p></td><td valign=top><p>Title</p></td></tr> <tr><td valign=top><p>0</p></td><td valign=top><p>Russia</p></td></tr> <tr><td valign=top><p>1</p></td><td valign=top><p>Ukraine</p></td></tr> <tr><td valign=top><p>2</p></td><td valign=top><p>Kazakhstan</p></td></tr> <tr><td valign=top><p>3</p></td><td valign=top><p>China</p></td></tr> <tr><td valign=top><p>4</p></td><td valign=top><p>Philippines</p></td></tr> <tr><td valign=top><p>5</p></td><td valign=top><p>Myanmar</p></td></tr> <tr><td valign=top><p>6</p></td><td valign=top><p>Indonesia</p></td></tr> <tr><td valign=top><p>7</p></td><td valign=top><p>Malaysia</p></td></tr> <tr><td valign=top><p>8</p></td><td valign=top><p>Kenya</p></td></tr><td valign=top><p>9</p></td><td valign=top><p>Tanzania</p></td></tr> <tr><td valign=top><p>10</p></td><td valign=top><p>Vietnam</p></td></tr> <tr><td valign=top><p>11</p></td><td valign=top><p>Kyrgyzstan</p></td></tr> <tr><td valign=top><p>12</p></td><td valign=top><p>USA (virtual)</p></td></tr> <tr><td valign=top><p>13</p></td><td valign=top><p>Israel</p></td></tr> <tr><td valign=top><p>14</p></td><td valign=top><p>Hong Kong</p></td></tr> <tr><td valign=top><p>15</p></td><td valign=top><p>Poland</p></td></tr> <tr><td valign=top><p>16</p></td><td valign=top><p>England</p></td></tr> <tr><td valign=top><p>18</p></td><td valign=top><p>Congo</p></td></tr> <tr><td valign=top><p>19</p></td><td valign=top><p>Nigeria</p></td></tr> <tr><td valign=top><p>20</p></td><td valign=top><p>Macao</p></td></tr> <tr><td valign=top><p>21</p></td><td valign=top><p>Egypt</p></td></tr> <tr><td valign=top><p>22</p></td><td valign=top><p>India</p></td></tr> <tr><td valign=top><p>23</p></td><td valign=top><p>Ireland</p></td></tr> <tr><td valign=top><p>24</p></td><td valign=top><p>Cambodia</p></td></tr> <tr><td valign=top><p>25</p></td><td valign=top><p>Laos</p></td></tr> <tr><td valign=top><p>26</p></td><td valign=top><p>Haiti</p></td></tr> <tr><td valign=top><p>27</p></td><td valign=top><p>Ivory</p></td></tr> <tr><td valign=top><p>28</p></td><td valign=top><p>Gambia</p></td></tr> <tr><td valign=top><p>29</p></td><td valign=top><p>Serbia</p></td></tr> <tr><td valign=top><p>30</p></td><td valign=top><p>Yemen</p></td></tr> <tr><td valign=top><p>31</p></td><td valign=top><p>South Africa</p></td></tr> <tr><td valign=top><p>32</p></td><td valign=top><p>Romania</p></td></tr> <tr><td valign=top><p>33</p></td><td valign=top><p>Colombia</p></td></tr> <tr><td valign=top><p>34</p></td><td valign=top><p>Estonia</p></td></tr> <tr><td valign=top><p>36</p></td><td valign=top><p>Canada</p></td></tr> <tr><td valign=top><p>37</p></td><td valign=top><p>Morocco</p></td></tr> <tr><td valign=top><p>38</p></td><td valign=top><p>Ghana</p></td></tr> <tr><td valign=top><p>39</p></td><td valign=top><p>Argentina</p></td></tr> <tr><td valign=top><p>40</p></td><td valign=top><p>Uzbekistan</p></td></tr> <tr><td valign=top><p>41</p></td><td valign=top><p>Cameroon</p></td></tr> <tr><td valign=top><p>42</p></td><td valign=top><p>Chad</p></td></tr> <tr><td valign=top><p>43</p></td><td valign=top><p>Germany</p></td></tr> <tr><td valign=top><p>44</p></td><td valign=top><p>Lithuania</p></td></tr> <tr><td valign=top><p>45</p></td><td valign=top><p>Croatia</p></td></tr> <tr><td valign=top><p>46</p></td><td valign=top><p>Sweden</p></td></tr> <tr><td valign=top><p>47</p></td><td valign=top><p>Iraq</p></td></tr> <tr><td valign=top><p>48</p></td><td valign=top><p>Netherlands</p></td></tr> <tr><td valign=top><p>49</p></td><td valign=top><p>Latvia</p></td></tr> <tr><td valign=top><p>50</p></td><td valign=top><p>Austria</p></td></tr> <tr><td valign=top><p>51</p></td><td valign=top><p>Belarus</p></td></tr> <tr><td valign=top><p>52</p></td><td valign=top><p>Thailand</p></td></tr> <tr><td valign=top><p>53</p></td><td valign=top><p>Saudi Arabia</p></td></tr> <tr><td valign=top><p>54</p></td><td valign=top><p>Mexico</p></td></tr> <tr><td valign=top><p>55</p></td><td valign=top><p>Taiwan</p></td></tr> <tr><td valign=top><p>56</p></td><td valign=top><p>Spain</p></td></tr> <tr><td valign=top><p>58</p></td><td valign=top><p>Algeria</p></td></tr> <tr><td valign=top><p>59</p></td><td valign=top><p>Slovenia</p></td></tr> <tr><td valign=top><p>60</p></td><td valign=top><p>Bangladesh</p></td></tr> <tr><td valign=top><p>61</p></td><td valign=top><p>Senegal</p></td></tr> <tr><td valign=top><p>62</p></td><td valign=top><p>Turkey</p></td></tr> <tr><td valign=top><p>63</p></td><td valign=top><p>Czech</p></td></tr> <tr><td valign=top><p>64</p></td><td valign=top><p>Sri Lanka</p></td></tr> <tr><td valign=top><p>65</p></td><td valign=top><p>Peru</p></td></tr> <tr><td valign=top><p>66</p></td><td valign=top><p>Pakistan</p></td></tr> <tr><td valign=top><p>67</p></td><td valign=top><p>New Zealand</p></td></tr> <tr><td valign=top><p>68</p></td><td valign=top><p>Guinea</p></td></tr> <tr><td valign=top><p>69</p></td><td valign=top><p>Mali</p></td></tr> <tr><td valign=top><p>70</p></td><td valign=top><p>Venezuela</p></td></tr> <tr><td valign=top><p>71</p></td><td valign=top><p>Ethiopia</p></td></tr> <tr><td valign=top><p>72</p></td><td valign=top><p>Mongolia</p></td></tr> <tr><td valign=top><p>73</p></td><td valign=top><p>Brazil</p></td></tr> <tr><td valign=top><p>74</p></td><td valign=top><p>Afghanistan</p></td></tr> <tr><td valign=top><p>75</p></td><td valign=top><p>Uganda</p></td></tr> <tr><td valign=top><p>76</p></td><td valign=top><p>Angola</p></td></tr> <tr><td valign=top><p>77</p></td><td valign=top><p>Cyprus</p></td></tr> <tr><td valign=top><p>78</p></td><td valign=top><p>France</p></td></tr> <tr><td valign=top><p>79</p></td><td valign=top><p>Papua</p></td></tr> <tr><td valign=top><p>80</p></td><td valign=top><p>Mozambique</p></td></tr> <tr><td valign=top><p>81</p></td><td valign=top><p>Nepal</p></td></tr> <tr><td valign=top><p>82</p></td><td valign=top><p>Belgium</p></td></tr> <tr><td valign=top><p>83</p></td><td valign=top><p>Bulgaria</p></td></tr> <tr><td valign=top><p>84</p></td><td valign=top><p>Hungary</p></td></tr> <tr><td valign=top><p>85</p></td><td valign=top><p>Moldova</p></td></tr> <tr><td valign=top><p>86</p></td><td valign=top><p>Italy</p></td></tr> <tr><td valign=top><p>87</p></td><td valign=top><p>Paraguay</p></td></tr> <tr><td valign=top><p>88</p></td><td valign=top><p>Honduras</p></td></tr> <tr><td valign=top><p>89</p></td><td valign=top><p>Tunisia</p></td></tr> <tr><td valign=top><p>90</p></td><td valign=top><p>Nicaragua</p></td></tr> <tr><td valign=top><p>91</p></td><td valign=top><p>Timor-Leste</p></td></tr> <tr><td valign=top><p>92</p></td><td valign=top><p>Bolivia</p></td></tr> <tr><td valign=top><p>93</p></td><td valign=top><p>Costa Rica</p></td></tr> <tr><td valign=top><p>94</p></td><td valign=top><p>Guatemala</p></td></tr> <tr><td valign=top><p>95</p></td><td valign=top><p>UAE</p></td></tr> <tr><td valign=top><p>96</p></td><td valign=top><p>Zimbabwe</p></td></tr> <tr><td valign=top><p>97</p></td><td valign=top><p>Puerto Tico</p></td></tr> <tr><td valign=top><p>99</p></td><td valign=top><p>Togo</p></td></tr> <tr><td valign=top><p>100</p></td><td valign=top><p>Kuwait</p></td></tr> <tr><td valign=top><p>101</p></td><td valign=top><p>Salvador</p></td></tr> <tr><td valign=top><p>102</p></td><td valign=top><p>Libyan</p></td></tr> <tr><td valign=top><p>103</p></td><td valign=top><p>Jamaica</p></td></tr> <tr><td valign=top><p>104</p></td><td valign=top><p>Trinidad</p></td></tr> <tr><td valign=top><p>105</p></td><td valign=top><p>Ecuador</p></td></tr> <tr><td valign=top><p>106</p></td><td valign=top><p>Swaziland</p></td></tr> <tr><td valign=top><p>107</p></td><td valign=top><p>Oman</p></td></tr> <tr><td valign=top><p>108</p></td><td valign=top><p>Bosnia</p></td></tr> <tr><td valign=top><p>109</p></td><td valign=top><p>Dominican</p></td></tr> <tr><td valign=top><p>111</p></td><td valign=top><p>Qatar</p></td></tr> <tr><td valign=top><p>112</p></td><td valign=top><p>Panama</p></td></tr> <tr><td valign=top><p>114</p></td><td valign=top><p>Mauritania</p></td></tr> <tr><td valign=top><p>115</p></td><td valign=top><p>Sierra Leone</p></td></tr> <tr><td valign=top><p>116</p></td><td valign=top><p>Jordan</p></td></tr> <tr><td valign=top><p>117</p></td><td valign=top><p>Portugal</p></td></tr> <tr><td valign=top><p>118</p></td><td valign=top><p>Barbados</p></td></tr> <tr><td valign=top><p>119</p></td><td valign=top><p>Burundi</p></td></tr> <tr><td valign=top><p>120</p></td><td valign=top><p>Benin</p></td></tr> <tr><td valign=top><p>121</p></td><td valign=top><p>Brunei</p></td></tr> <tr><td valign=top><p>122</p></td><td valign=top><p>Bahamas</p></td></tr> <tr><td valign=top><p>123</p></td><td valign=top><p>Botswana</p></td></tr> <tr><td valign=top><p>124</p></td><td valign=top><p>Belize</p></td></tr> <tr><td valign=top><p>125</p></td><td valign=top><p>CAF</p></td></tr> <tr><td valign=top><p>126</p></td><td valign=top><p>Dominica</p></td></tr> <tr><td valign=top><p>127</p></td><td valign=top><p>Grenada</p></td></tr> <tr><td valign=top><p>128</p></td><td valign=top><p>Georgia</p></td></tr> <tr><td valign=top><p>129</p></td><td valign=top><p>Greece</p></td></tr> <tr><td valign=top><p>130</p></td><td valign=top><p>Guinea-Bissau</p></td></tr> <tr><td valign=top><p>131</p></td><td valign=top><p>Guyana</p></td></tr> <tr><td valign=top><p>132</p></td><td valign=top><p>Iceland</p></td></tr> <tr><td valign=top><p>133</p></td><td valign=top><p>Comoros</p></td></tr> <tr><td valign=top><p>134</p></td><td valign=top><p>Saint Kitts</p></td></tr> <tr><td valign=top><p>135</p></td><td valign=top><p>Liberia</p></td></tr> <tr><td valign=top><p>136</p></td><td valign=top><p>Lesotho</p></td></tr> <tr><td valign=top><p>137</p></td><td valign=top><p>Malawi</p></td></tr> <tr><td valign=top><p>138</p></td><td valign=top><p>Namibia</p></td></tr> <tr><td valign=top><p>139</p></td><td valign=top><p>Niger</p></td></tr> <tr><td valign=top><p>140</p></td><td valign=top><p>Rwanda</p></td></tr> <tr><td valign=top><p>141</p></td><td valign=top><p>Slovakia</p></td></tr> <tr><td valign=top><p>142</p></td><td valign=top><p>Suriname</p></td></tr> <tr><td valign=top><p>143</p></td><td valign=top><p>Tajikistan</p></td></tr> <tr><td valign=top><p>144</p></td><td valign=top><p>Monaco</p></td></tr> <tr><td valign=top><p>145</p></td><td valign=top><p>Bahrain</p></td></tr> <tr><td valign=top><p>146</p></td><td valign=top><p>Reunion</p></td></tr> <tr><td valign=top><p>147</p></td><td valign=top><p>Zambia</p></td></tr> <tr><td valign=top><p>148</p></td><td valign=top><p>Armenia</p></td></tr> <tr><td valign=top><p>149</p></td><td valign=top><p>Somalia</p></td></tr> <tr><td valign=top><p>150</p></td><td valign=top><p>Congo</p></td></tr> <tr><td valign=top><p>151</p></td><td valign=top><p>Chile</p></td></tr> <tr><td valign=top><p>152</p></td><td valign=top><p>Burkina Faso</p></td></tr> <tr><td valign=top><p>153</p></td><td valign=top><p>Lebanon</p></td></tr> <tr><td valign=top><p>154</p></td><td valign=top><p>Gabon</p></td></tr> <tr><td valign=top><p>155</p></td><td valign=top><p>Albania</p></td></tr> <tr><td valign=top><p>156</p></td><td valign=top><p>Uruguay</p></td></tr> <tr><td valign=top><p>157</p></td><td valign=top><p>Mauritius</p></td></tr> <tr><td valign=top><p>158</p></td><td valign=top><p>Bhutan</p></td></tr> <tr><td valign=top><p>159</p></td><td valign=top><p>Maldives</p></td></tr> <tr><td valign=top><p>160</p></td><td valign=top><p>Guadeloupe</p></td></tr> <tr><td valign=top><p>161</p></td><td valign=top><p>Turkmenistan</p></td></tr> <tr><td valign=top><p>162</p></td><td valign=top><p>French Guiana</p></td></tr> <tr><td valign=top><p>163</p></td><td valign=top><p>Finland</p></td></tr> <tr><td valign=top><p>164</p></td><td valign=top><p>Saint Lucia</p></td></tr> <tr><td valign=top><p>165</p></td><td valign=top><p>Luxembourg</p></td></tr> <tr><td valign=top><p>166</p></td><td valign=top><p>Saint Vincent and the Grenadines</p></td></tr> <tr><td valign=top><p>167</p></td><td valign=top><p>Equatorial Guinea</p></td></tr> <tr><td valign=top><p>168</p></td><td valign=top><p>Djibouti</p></td></tr> <tr><td valign=top><p>169</p></td><td valign=top><p>Antigua Barbuda</p></td></tr> <tr><td valign=top><p>170</p></td><td valign=top><p>Cayman Islands</p></td></tr> <tr><td valign=top><p>171</p></td><td valign=top><p>Montenegro</p></td></tr> <tr><td valign=top><p>173</p></td><td valign=top><p>Switzerland</p></td></tr> <tr><td valign=top><p>174</p></td><td valign=top><p>Norway</p></td></tr> <tr><td valign=top><p>175</p></td><td valign=top><p>Australia</p></td></tr> <tr><td valign=top><p>176</p></td><td valign=top><p>Eritrea</p></td></tr> <tr><td valign=top><p>177</p></td><td valign=top><p>South Sudan</p></td></tr> <tr><td valign=top><p>178</p></td><td valign=top><p>Sao Tome and Principe</p></td></tr> <tr><td valign=top><p>179</p></td><td valign=top><p>Aruba</p></td></tr> <tr><td valign=top><p>180</p></td><td valign=top><p>Montserrat</p></td></tr> <tr><td valign=top><p>181</p></td><td valign=top><p>Anguilla</p></td></tr> <tr><td valign=top><p>183</p></td><td valign=top><p>North Macedonia</p></td></tr> <tr><td valign=top><p>184</p></td><td valign=top><p>Seychelles</p></td></tr> <tr><td valign=top><p>185</p></td><td valign=top><p>New Caledonia</p></td></tr> <tr><td valign=top <p>186</p></td><td valign=top><p>Cape Verde</p></td></tr> <tr><td valign=top><p>187</p></td><td valign=top><p>USA</p></td></tr> <tr><td valign=top><p>190</p></td><td valign=top><p>South Korea</p></td></tr></table>
+          </div>
+      </div>
+    </div>
+    <div class="panel-container fade-in">
+      <div class="menu-bar">
+        <div class="tab-logo"><img class="image-holder" src="./resources/Chefs_EU.png"></img><h6 class="version"></h6></div>
+        <div class="menu-item gen-button active">Generator</div>
+        <div class="menu-item prox-button">Proxies</div>
+        <div class="menu-item set-button">Settings</div>
+        <div class="menu-item acc-button">Accounts</div>
+        
+        <div class="current-user">
+          <img class="pfp" src=""></img>
+          <span class="username"></span>
+          
+        </div>
+      </div>
+      <div id="notification" class="hidden">
+        <p id="message"></p>
+        <button id="close-button" onClick="closeNotification()">
+          Close
+        </button>
+        <button id="restart-button" class="hidden" onClick="restartApp()">
+          Restart
+        </button>
+      </div>
+      <div class="sub-panel generator">
+        <div class="error-container">
+          <div class="gen-error error-box">
+            <span class="gen-error-msg error-msg"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <!-- <h1 class="gen-title">Email Option</h1>
+            <div class="gen-setting-container">
+              <input type="radio" id="Provider" name="emailopt" class="account-type" disabled></input>
+              <label for="Provider" class="account-label">Random Email</label><br>
+              <input type="radio" id="Catch" name="emailopt" class="account-type"></input>
+              <label for="Catch" class="account-label">Catch-all</label>
+              <input type="text" placeholder="e.g. abc.com, def.co.uk" class="account-txt acc-domains" disabled>
+            </div> -->
+            <!-- <h1 class="gen-title">Account Types</h1>
+            <div class="gen-setting-container">
+              <input type="radio" name="acctype" id="Fast" class="account-type"></input>
+              <label for="Fast" class="account-label">Fast (Directly creates account)</label><br>
+              <input type="radio" name="acctype" id="Safe" class="account-type" disabled></input>
+              <label for="Safe" class="account-label">Safe (Some simulated activity)</label><br>
+              <input type="radio" name="acctype" id="USafe" class="account-type" disabled></input>
+              <label for="USafe" class="account-label">Ultra-Safe (More simulated activity)</label><br>
+            </div> -->
+            <h1 class="gen-title">Headless Mode</h1>
+            <div class="gen-setting-container">
+              <input type="radio" name="display" id="true" class="account-type"></input>
+              <label for="true" class="account-label">Enabled</label><br>
+              <input type="radio" name="display" id="false" class="account-type"></input>
+              <label for="false" class="account-label">Disabled</label><br>
+            </div>
+            <h1 class="gen-title">Delay (ms)</h1>
+            <input type="number" class="field gen-delay" min="0"><br>
+          </div>
+          <div class="column">
+            <h1 class="gen-title">Quantity of Accounts</h1>
+            <input type="number" class="field acc-quant" min="0"><br>
+            <h1 class="gen-title">Batch Limit (Concurent Generations)</h1>
+            <input type="number" class="field btch-limit" min="0">
+          </div>
+        </div>
+        <button class="generator-btn start green-flash">Commence Generating</button>
+        <button class="generator-btn stop red-flash">Halt Generating</button>
+      </div>
+      <div class="sub-panel proxies">
+        <textarea class="prox-entry" placeholder="ip:port:user:pass OR localhost"></textarea>
+        <br>
+        <button class="prox-submit">Save</button>
+      </div>
+      <div class="sub-panel settings">
+
+        <div class="row">
+          <div class="column">
+            <h1 class="settings-title">Discord Webhook Settings</h1>
+            <input type="text" placeholder="Hook URL" class="settings-input webhook-url">
+            <br>
+            <button class="settings-btn webhook-test">Test</button>
+            <button class="settings-btn webhook-sub">Save</button>
+            <div class="flex-center"><div class="logout">Logout</div></div>
+          </div>
+          <div class="column">
+            <h1 class="settings-title">SMS Verification Settings</h1>
+            <h6 class="settings-sub">Provider</h6>
+            <select class="settings-input" id="provSelect">
+              <option value="sms-activate">sms-activate.ru</option>
+              <option value="getsms">getsmscode.com</option>
+            </select>
+            <h6 class="settings-sub">Credentials</h6>
+            <div class="getsmsDiv smsfield">
+              <input type="text" placeholder="GetSMSCode Email" class="settings-input getsmsemail">
+              <input type="text" placeholder="GetSMSCode Token" class="settings-input getsmstoken">
+              <input type="text" placeholder="GetSMSCode Country" class="settings-input getcountry">
+            </div>
+            <div class="sms-activateDiv smsfield">
+              
+              <input type="text" placeholder="sms-activate.ru API Key" class="settings-input sms-activatekey">
+              <input type="text" placeholder="sms-activate.ru Country" class="country-input activatecountry">
+              <a class="trigger_popup_fricc settings-link">sms-activate.ru country guide</a>
+            </div>
+            <br>
+            <button class="settings-btn sms-sub">Check & Save</button>
+            <div class="getsmscode-success success-box">
+              <span class="getsmscode-success success-msg"></span>
+            </div>
+            <div class="error-box getsmscode-error">
+              <span class="error-msg getsmscode-error"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-panel accounts">
+          <textarea class="accounts-list" rows="22" readonly></textarea>
+          <h2 class="accounts-subtitle">Accounts are also saved in the Chefs EU folder found in your Documents</h2>
+        </div>
+      </div>
+    </div>
+    <script src="panel.js"></script>
+  </body>
+</html>

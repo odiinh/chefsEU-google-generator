@@ -1,0 +1,12 @@
+dist
+/node_modules/*
+!/node_modules/puppeteer-cluster
+!/node_modules/puppeteer-cluster/dist
+gen/odinsSettings.json
+Accounts.txt
+electron-builder.yml
+savedSettings.json
+/index.js
+enc.ps1
+app-update.yml
+.env

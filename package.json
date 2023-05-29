@@ -1,0 +1,44 @@
+{
+  "name": "chefseu-google-generator",
+  "version": "1.0.5-b",
+  "description": "A dedicated google account generator",
+  "main": "main.js",
+  "author": "github.com/odiinh",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CHEFSEU/CHEF_GOOGLE_GENERATOR.git"
+  },
+  "devDependencies": {
+    "asar": "^3.0.3",
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7",
+    "javascript-obfuscator": "^2.18.1",
+    "recursive-readdir": "^2.2.2",
+    "rimraf": "^3.0.2",
+    "yargs": "^17.0.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9",
+    "express": "^4.17.1",
+    "ghost-cursor": "^1.1.6",
+    "jquery": "^3.6.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^8.0.0",
+    "puppeteer-cluster": "^0.22.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-adblocker": "^2.11.11",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "puppeteer-page-proxy": "^1.2.8",
+    "request": "^2.88.2",
+    "rich-presence-builder": "^0.1.1",
+    "webhook-discord": "^3.7.7"
+  },
+  "bugs": {
+    "url": "https://github.com/CHEFSEU/CHEF_GOOGLE_GENERATOR/issues"
+  },
+  "homepage": "https://github.com/CHEFSEU/CHEF_GOOGLE_GENERATOR#readme",
+  "license": "ISC"
+}

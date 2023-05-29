@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <link rel="stylesheet" href="./styles.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Lexend&display=swap" rel="stylesheet"></link>
+    <title>Chefs EU Google Generator</title>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div id="notification" class="hidden">
+      <p id="message"></p>
+      <button id="close-button" onClick="closeNotification()">
+        Close
+      </button>
+      <button id="restart-button" onClick="restartApp()">
+        Restart
+      </button>
+    </div>
+    <div class="transition"></div>
+    <div class="login-box">
+      <h1 class="login-title">Chefs EU Google Generator</h1>
+      <h3 class="login-sub">Login using your Hyper Key</h3>
+      <div class="error-box">
+        <span class="error-msg"></span>
+      </div>
+      <div class="success-box">
+        <img class="login-photo">
+        <span class="success-msg"></span>
+      </div>
+      <input type="text" placeholder="Key" class="key-input">
+      <button class="continue">Login</button>
+      <div class="keyinfo">
+        <i>License info</i>
+        <div class="keydata">
+          <span class="license-info"></span>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
